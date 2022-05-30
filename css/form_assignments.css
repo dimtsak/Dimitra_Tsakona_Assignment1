@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  rgba(223, 211, 39, 0.678);
+}
+#home {
+    padding-top: 10px;
+    display: block;
+    width: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    text-align:center;
+    text-decoration: none;
+    margin-bottom:-40px;
+}
+#forma {
+    width: 500px;
+    margin: 70px auto;
+    background-color: rgba(223, 211, 39, 0.678);
+    
+}
+header {
+    background-image: url(../images/font.png);
+    color: rgb(223, 210, 39);
+    padding: 5px;
+    border-bottom: solid purple;
+}
+
+main .etiketa {
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.etiketa {
+    width: 30%;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    text-align: right;
+    height: 60px;
+    line-height: 60px;
+}
+.eisagogi {
+    width: 70%;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 10px;
+}
+.eisagogi input {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(128, 0, 128, 0.329);
+}
+.eisagogi select {
+    height: 30px;
+}
+
+footer {
+    background-image: url(../images/font.png);
+    clear: both;
+    height: 100px;
+    border-top: solid purple;
+}
+
+#sub input{
+    background-color:rgb(34, 30, 30);
+    font-weight: bold;
+    float: right;
+    color:rgb(223, 210, 39);
+    margin-right: 1%;
+    width: 15%;
+    height: 40px;
+
+    border: solid 3px purple;
+}
+#ed input{
+    background-color:rgb(34, 30, 30);
+    font-weight: bold;
+    float:right;
+    color: rgb(223, 210, 39);
+    margin-right: 2%;
+    width: 15%;
+    height: 40px;
+    
+    border: solid 3px purple;
+}
+#buttons input {
+    font-size: 14px;
+}
+.error {
+    color: #ff0000;
+    border-color: #ff0000;
+    font-style: italic;
+    display: block;
+    line-height: 20px;
+}
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; 
+    /* 1 */
+    display: table;
+     /* 2 */
+    }
+.cf:after {
+    clear: both;
+}

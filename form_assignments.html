@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/form_assignments.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link rel="stylesheet" href="css/form_assignments.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <a href="homepage.html" id="home">Homepage <br> &#8656; </a>
+    <div id="forma">
+        <form name="form">
+            <header>
+                <h2>ADD / EDIT Assignment</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="title"> Title:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="title" name="title" placeholder="Enter Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="description"> Description:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="description" name="description" placeholder="Enter Description...">
+                </div>
+                
+                <div class="etiketa">
+                    <label for="sub">Submission:</label></div>
+                <div class="eisagogi">
+                    <input type="date" id="sub" name="submission">
+                </div>
+                <div class="etiketa">
+                    <label for="oral"> Oral Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" id="oral" name="oral" min="0" max="30" placeholder="Enter oral mark...">
+                </div>
+                <div class="etiketa">
+                    <label for="total"> Total Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" name="total" id="total" min="0" max="100">
+                </div>
+                <div id="buttons">
+                    <div id="ed"><input type="button" value="edit"></div>
+                    <div id="sub"><input type="submit" value="submit"></div>
+                </div>
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</body>
+</html>

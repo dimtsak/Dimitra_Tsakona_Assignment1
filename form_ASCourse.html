@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/form_ASCourse.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments per student per course</title>
+    <link rel="stylesheet" href="css/form_ASCourse.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <a href="homepage.html" id="home">Homepage <br> &#8656; </a>
+    <div id="courses">
+        <label for="courses"><b>Choose a Course:</b></label>
+        <select name="courses" class="course">
+            <option>Course</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </div>
+
+    <div id="students_C">
+        <label for="students_C"><b>Choose a Student from C# class:</b></label>
+        <select name="students_C" class="student_C">
+            <option>Joe Johns</option>
+            <option>Edgar Alan</option>
+            <option>Jack Cole</option>
+        </select>
+    </div>
+    
+    <div id="students_P">
+        <label for="students_P"><b>Choose a Student from Python class:</b></label>
+        <select name="students_P" class="student_P">
+            <option>Sally Meyer</option>
+            <option>Philippe Leblanc</option>
+            <option>Rosa Brown</option>
+            <option>Alice McMarty</option>
+        </select>
+    </div>
+    
+    <div id="students_J">
+        <label for="students_J"><b>Choose a Student from JavaScript class:</b></label>
+        <select name="students_J" class="student_J">
+            <option>Antony Hope</option>
+            <option>Lauren Simpson</option>
+            <option>Bob Fisher</option>
+            <option>Nick White</option>
+        </select>
+    </div>
+    <div id="forma">
+        <form name="form">
+            <header>
+                <h2>ADD / EDIT Assignments per Student</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="title"> Assignment 1:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="title" name="title" placeholder="Enter Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="description"> Description:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="description" name="description" placeholder="Enter Description...">
+                </div>
+                
+                <div class="etiketa">
+                    <label for="sub">Submission:</label></div>
+                <div class="eisagogi">
+                    <input type="date" id="sub" name="submission">
+                </div>
+                <div class="etiketa">
+                    <label for="oral"> Oral Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" id="oral" name="oral" min="0" max="30" placeholder="Enter oral mark...">
+                </div><hr>
+                <div class="etiketa"> 
+                    <label for="title2"> Assignment 2:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="title2" name="title2" placeholder="Enter Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="description2"> Description:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="description2" name="description2" placeholder="Enter Description...">
+                </div>
+                
+                <div class="etiketa">
+                    <label for="sub2">Submission:</label></div>
+                <div class="eisagogi">
+                    <input type="date" id="sub2" name="submission2">
+                </div>
+                <div class="etiketa">
+                    <label for="oral2"> Oral Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" id="oral2" name="oral2" min="0" max="30" placeholder="Enter oral mark...">
+                </div>
+                <div class="etiketa">
+                    <label for="total"> Total Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" name="total" id="total" min="0" max="100">
+                </div>
+                <div id="buttons">
+                    <div id="ed"><input type="button" value="edit"></div>
+                    <div id="sub"><input type="submit" value="submit"></div>
+                </div>
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</body>
+</html>

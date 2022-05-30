@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/form_courses.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="js/form_courses.js"></script>
+</head>
+<body>
+    <a href="homepage.html" id="home">Homepage <br> &#8656; </a>
+    <div id="forma">
+        <form name="forma">
+            <header>
+                <h2>ADD / EDIT Course</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="title"> Title:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" name="title" id="title" placeholder="Enter Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="stream"> Stream:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" name="stream" id="stream" placeholder="Enter Stream...">
+                </div>
+                <div class="etiketa">
+                    <label> Type:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="radio" id="full" name="pf">&nbsp;Full Time
+                    <input type="radio" id="part" name="pf">&nbsp;Part Time
+                </div>
+                
+                <div class="etiketa">
+                    <label for="sdate">Start Date:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="date" id="sdate" name="startDate">
+                </div>
+               
+                <div class="etiketa">
+                    <label for="edate">End Date:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="date" id="edate" name="endDate">
+                </div>
+                <div id="buttons">
+                    <div id="ed"><input type="button" value="edit"></div>
+                    <div id="sub"><input type="submit" value="submit"></div>
+                </div>
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</body>
+</html>

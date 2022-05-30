@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/form_CCourse.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers/Students/Assignments</title>
+    <link rel="stylesheet" href="css/form_CCourse.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    
+    <a href="homepage.html" id="home">Homepage <br> &#8656; </a>
+<div id="teacher">
+    <div id="courses">
+        <select required>
+            <option>Choose a Course</option>
+            <option>C#</option>
+            <option>Python</option>
+            <option>JavaScript</option>
+        </select>
+    </div>
+    <div id="forma">
+        <form name="form1">
+            <header>
+                <h2>Teachers</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="fname"> First Name:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name...">
+                </div>
+                <div class="etiketa">
+                    <label for="lname"> Last Name:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="lname" name="lname" placeholder="Enter Last Name...">
+                </div>
+                <div class="etiketa">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="email" id="email" name="email" placeholder="Enter Email...">
+                </div>         
+                <div class="etiketa area">
+                    <label for="comm">Comments:</label>
+                </div>
+                <div class="eisagogi area">
+                    <textarea placeholder="Comments here..." id="comm" name="comments"></textarea>
+                </div>
+                <div id="buttons">
+                    <div id="ed"><input type="button" value="edit"></div>
+                    <div id="sub"><input type="submit" value="submit"></div>
+                </div>
+               
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</div>
+
+<div id="student">
+    <div id="forma2">
+        <form name="form2">
+            <header>
+                <h2>Students</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="fname2"> First Name:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="fname2" name="fname2" placeholder="Enter First Name...">
+                </div>
+                <div class="etiketa">
+                    <label for="lname2"> Last Name:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="lname2" name="lname2" placeholder="Enter Last Name...">
+                </div>
+                <div class="etiketa">
+                    <label for="email2">Email:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="email" id="email2" name="email2" placeholder="Enter Email...">
+                </div>         
+                <div class="etiketa area">
+                    <label for="comm2">Comments:</label>
+                </div>
+                <div class="eisagogi area">
+                    <textarea placeholder="Comments here..." id="comm2" name="comments2"></textarea>
+                </div>
+                <div id="buttons2">
+                    <div id="ed2"><input type="button" value="edit"></div>
+                    <div id="sub2"><input type="submit" value="submit"></div>
+                </div>
+               
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</div>
+<div id="assignment">
+    <div id="forma3">
+        <form name="form3">
+            <header>
+                <h2>Assignments</h2>
+            </header>
+            <main class="cf">
+                <div class="etiketa">
+                    <label for="fassign"> First Assignment:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="fassign" name="fassign" placeholder="Enter Assignment's Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="fmark">Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" id="fmark" name="fmark" placeholder="Enter Mark...">
+                </div>         
+                <div class="etiketa">
+                    <label for="sassign">Second Assignment:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="text" id="sassign" name="sassign" placeholder="Enter Assignment's Title...">
+                </div>
+                <div class="etiketa">
+                    <label for="smark">Mark:</label>
+                </div>
+                <div class="eisagogi">
+                    <input type="number" id="smark" name="smark" placeholder="Enter Mark...">
+                </div>  
+                
+                <div class="etiketa area">
+                    <label for="comm3">Comments:</label>
+                </div>
+                <div class="eisagogi area">
+                    <textarea placeholder="Comments here..." id="comm3" name="comments3"></textarea>
+                </div>
+                <div id="buttons3">
+                    <div id="ed3"><input type="button" value="edit"></div>
+                    <div id="sub3"><input type="submit" value="submit"></div>
+                </div>
+               
+            </main>
+            
+        </form>
+        <footer><br> </footer>
+    </div>
+</div>
+</body>
+</html>
